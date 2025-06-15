@@ -15,6 +15,7 @@
 		5010862A2DF402A600F12254 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501086292DF402A600F12254 /* Song.swift */; };
 		5010862C2DF402D200F12254 /* SongListViewModel.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5010862B2DF402D200F12254 /* SongListViewModel.swift .swift */; };
 		501086302DF4042000F12254 /* SongListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5010862F2DF4042000F12254 /* SongListView.swift */; };
+		501086382DFE7BCC00F12254 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 501086372DFE7BCC00F12254 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		501086292DF402A600F12254 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		5010862B2DF402D200F12254 /* SongListViewModel.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SongListViewModel.swift .swift"; sourceTree = "<group>"; };
 		5010862F2DF4042000F12254 /* SongListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListView.swift; sourceTree = "<group>"; };
+		501086372DFE7BCC00F12254 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,8 @@
 				501086282DF4028F00F12254 /* Model */,
 				501086132DF3FDC300F12254 /* MyMusicJournalApp.swift */,
 				501086152DF3FDC300F12254 /* ContentView.swift */,
-				501086232DF3FE7900F12254 /* AddSongView.swift */,
 				501086172DF3FDC500F12254 /* Assets.xcassets */,
+				501086372DFE7BCC00F12254 /* README.md */,
 				501086192DF3FDC500F12254 /* Preview Content */,
 			);
 			path = MyMusicJournal;
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				5010862F2DF4042000F12254 /* SongListView.swift */,
+				501086232DF3FE7900F12254 /* AddSongView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501086382DFE7BCC00F12254 /* README.md in Resources */,
 				5010861B2DF3FDC500F12254 /* Preview Assets.xcassets in Resources */,
 				501086182DF3FDC500F12254 /* Assets.xcassets in Resources */,
 			);
